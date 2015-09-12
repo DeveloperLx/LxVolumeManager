@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'LxVolumeManager/*.h'
   s.source_files = 'LxVolumeManager/*'
 
+  s.frameworks = 'Foundation', 'CoreGraphics', 'MediaPlayer'
+
 end
